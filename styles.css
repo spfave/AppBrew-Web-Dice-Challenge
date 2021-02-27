@@ -1,22 +1,11 @@
+body {
+  background-color: #393e46;
+}
+
 .container {
   width: 70%;
   margin: auto;
   text-align: center;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
-}
-
-.dice-button {
-  background: none;
-  border: none;
-  padding: 0;
-}
-
-body {
-  background-color: #393e46;
 }
 
 h1 {
@@ -27,10 +16,25 @@ h1 {
   color: #4ecca3;
 }
 
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
 p {
   font-size: 2rem;
   color: #4ecca3;
   font-family: "Indie Flower", cursive;
+}
+
+.dice-button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.dice-button:hover {
+  cursor: pointer;
 }
 
 img {
